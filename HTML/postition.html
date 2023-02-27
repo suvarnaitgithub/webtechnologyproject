@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 1500px;
+        }
+        .box{
+            height: 100px;
+            width: 60px;
+            background-color: darkorange;
+            border: 1px solid;
+            display: inline-block;
+
+        }
+        #b2{
+            position: relative;
+            top: 100px;
+            left: 200px;
+        }
+        #b3{
+            position: absolute;
+            bottom: 200px;
+            right: 200px;
+            left: 200px;
+        }
+        #b4{
+            position:fixed;
+            top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="box" id="b1">box1</div>
+        <div class="box" id="b2">box2</div>
+        <div class="box" id="b3">box3</div>
+        <div class="box" id="b4">box4</div>
+        <div class="box" id="b5">box5</div>
+    </div>
+    <!-- <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+    <div class="box" id="box5"></div> -->
+    <!-- Zinc code:- div.box#box$*5  -->
+</body>
+</html>

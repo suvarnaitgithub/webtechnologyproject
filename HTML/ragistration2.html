@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            background-image: url(./images/hd-wallpaper-g73d2f46af_1920.jpg);
+            background-size: cover;
+        }
+        #parent{
+           width: 710px;
+           height: 52px;
+           margin:0 auto;
+           border-top-left-radius: 20px;
+           display: flex;
+           justify-content: center;
+            
+        }
+        #brother{
+            width: 350px;
+            height: 528px;
+            /* border: 1px solid; */
+            margin-top: 100px; 
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        #brother2{
+            width: 350px;
+            height: 528px;
+            /* border: 1px solid; */
+            margin-top: 100px; 
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+       .box1{
+        background-image: url(./images/poppies-g6da92e69c_640.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+       .box2{
+        background-color: black;
+
+       }
+       input{
+        width: 70%;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        margin-left: 50px; 
+        padding: 20px 10px;
+        font-weight: 600;
+        text-decoration-color: aliceblue;
+        background-color: black;
+       }
+       select{
+        width: 70%;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        margin-left: 50px; 
+        padding: 20px 10px;
+        font-weight: 600;
+        background-color: black;
+       }
+       h2{
+        margin-left: 50px;
+        padding:10px 10px;
+        color: aliceblue;
+        font-weight: 800;
+       }
+       button{
+        width: 100px;
+        height: 40px;
+        border: 1px solid;
+        padding: 20px 20px;
+        border-radius: 50px;
+        margin-top: 40px;
+        margin-left: 60px;
+        background-color: yellowgreen;
+        box-shadow: 1px 2px 1px gray;
+       }
+      #birth{
+        color: gray;
+      }
+       a{
+        text-decoration: none;
+        color: aliceblue;
+        align-items: center;
+        padding: 5px 5px 5px 0px;
+       }
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="brother" class="box1">
+        </div>
+        <div id="brother2" class="box2">
+            <h2> Ragistration Form</h2>
+            <form action="">
+                <input type="text"placeholder="Name">
+                <br>
+                <input type="date" name="" id="birth" placeholder="Birthdate">
+                <br>
+                <select name="" id="birth">
+                    <option value="">Gender</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select>
+                <br>
+                <input type="email" name="" id="" placeholder="Email">
+                <br>
+                <input type="tel" name="" id="" placeholder="Phone">
+                <br>
+                <button type="submit">
+                    <a href="#">Submit</a>
+                    </button>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //by using litrals
+        //Array is continious block of memory which is used to store 
+        // heterogienus type of data
+        let arr=[1,"string",true,null,0]
+        // console.log(typeof arr);
+        console.log(typeof arr[0]);
+        console.log(arr[2]);
+        console.log(4);
+        arr[5]={name:"object",type:"updated"}
+        console.log(arr);
+
+        //array by using new keyword
+        let arr1=new Array("string1",null,false,[1,2,3,{model:"apple13",price:80000},[1,2,true,{name:"3d array",type:"nested"}]])
+        console.log(typeof arr1[1]);
+        console.log(arr1[3][3]);//2d array
+        console.log(arr1[3][3].price = 8000);
+        console.log(arr1);
+        console.log(arr1[3][4][3].name);
+        console.log(arr1[3][4][4]="hello");
+        console.log(arr1);
+    </script>
+</body>
+</html>

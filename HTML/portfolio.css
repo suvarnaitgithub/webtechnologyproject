@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    width: 25%;
+    height: 100vh;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+}
+#profilephoto{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 8px 10px;
+    background-image: url(./images/pihu.img.jpeg);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}

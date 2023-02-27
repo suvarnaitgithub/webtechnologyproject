@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        background-color:#FFFACD;	
+       }
+       #Parent{
+        width: 700px;
+        height: 528px;
+        /* border: 1px solid ; */
+        margin: 0 auto;
+        display: flex;
+        margin-top: 50px;
+        border-radius: 20px; 
+        box-shadow: 20px 10px 20px;
+       }
+       .c1{
+        width: 300px;
+        height: 528px;
+        /* border: 1px solid; */
+        display: inline-block;
+        background-image: url(./images/roses-g5538f5917_6401.jpg);
+        border-top-left-radius: 20px;
+        border-bottom-left-radius:20px ;    }
+       .c2{
+        width: 600px;
+        height: 528px;
+        /* border: 1px solid; */
+        background-color: #ffffff;
+        margin:0 auto;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+       }
+       h1{
+        text-align: center;
+        color: blue;
+        margin-top: 20px;
+       }
+       input{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        padding: 15px 10px 15px 0px;
+        border-color: blue;
+        width: 55%;
+        margin-left: 40px;
+        font-weight: 600;
+       }
+       .gchild{
+        border: 2px solid;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        padding: 15px 10px 15px 0px;
+        border-color: blue;
+        font-weight: 600;
+       }
+       .gchild1{
+        border: 2px solid;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        padding: 15px 10px 15px 0px;
+        border-color: blue;
+        margin-left: 40px;font-weight: 600;
+       }
+       .button{
+        width: 60px;
+        height: 20px;
+        /* border: 1px solid; */
+        padding: 10px;
+        margin-top: 50px;
+        margin-left: 180px;
+        background-color:yellowgreen;
+        border-radius: 10px;
+        font-weight: 600;
+        box-shadow: 0px 0px 10px ;
+       }
+       a{
+        margin-left: 10px;
+        text-decoration: none;
+        color: #ffffff;
+       }
+       
+
+    </style>
+</head>
+<body>
+   <div id="Parent">
+    <div class="c1"></div>
+    <div class="c2">
+        <h1>RAGISTRATION INFO</h1>
+        <form action="">
+            <input type="text" name="" id="" placeholder="Name">
+            <br>
+            <!-- <label for="">Birthdate</label> -->
+            <input type="date" name="" id="" >
+            <select class="gchild">
+                <option value="">Gender</option>
+                <option value="">Femele</option>
+                <option value="">Male</option>
+            </select>
+            <br>
+            <select class="gchild1">
+                <option value="">Class</option>
+                <option value="">Web tech</option>
+                <option value="">J2EE</option>
+            </select>
+            <br>
+            <input type="number" name="" id="" placeholder="Ragiestration Code">
+            <br>
+            <div class="button">
+                <a href="#">search</a>
+            </div>
+            
+        </form>
+    </div>
+   </div>
+</body>
+</html>
